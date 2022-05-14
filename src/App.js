@@ -4,7 +4,7 @@ import './App.css';
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from "./views/Main";
 import Services from "./views/Services";
-import Resume from "./views/Resume";
+import Book from "./views/Book";
 import About from "./views/About";
 import Contact from "./views/Contact";
 
@@ -16,7 +16,7 @@ function App() {
             <Main />
             <Services />
             <About />
-            <Resume />
+            <Book />
             <Contact />
           </div>
       </div>
@@ -28,5 +28,5 @@ export default App;
             // <Main />
             // <Services />
             // <About />
-            // <Resume />
+            // <Book />
             // <Contact />
