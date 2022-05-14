@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Manicure",
+        "image": "https://media.gettyimages.com/photos/women-getting-pedicures-picture-id181853082?s=612x612",
+        "about": 
+        "The Nail Lounge of La Jolla offers a variety of manicures to suit your needs. Whether you seek a simple shine or a complete pampering, there is a perfect manicure for you.",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    },
+    {
+        "title": "Pedicure",
+        "image": "https://media.istockphoto.com/photos/closeup-of-beautician-applying-nail-at-salon-picture-id1167657805?k=20&m=1167657805&s=612x612&w=0&h=KO9l_SDey2gCCh-p3NqEUKcY7aGBLtIheB4w-8FkPYQ=",
+        "about": 
+        "The Nail Lounge of La Jolla has a variety of spa pedicures. Whether you would like simple renewal and refreshment, or an all-out pampering session, The Nail Lounge of La Jolla has what you’re looking for.",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    },
+    {
+        "title": "Nail Enhancement",
+        "image": "https://thumbs.dreamstime.com/b/woman-nail-salon-receiving-manicure-beautician-beauty-treatment-concept-35878958.jpg",
+        "about": 
+            "Nail enhancements are perfect for those who wish to optimize their natural nail by enhancing it with a variety of nail enhancement techniques. Great for an every day look or a special occasion, nail enhancements make the most of your nails.",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    },
+    {
+        "title": "Facial Treatment",
+        "image": "https://thumbs.dreamstime.com/b/woman-nail-salon-receiving-manicure-beautician-beauty-treatment-concept-35878958.jpg",
+        "about": 
+            "The Nail Lounge of La Jolla offers a variety of spa facials. Experience ultimate pampering and stress relief with a calming facial today!",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    },
+    {
+        "title": "Waxing",
+        "image": "https://thumbs.dreamstime.com/b/woman-nail-salon-receiving-manicure-beautician-beauty-treatment-concept-35878958.jpg",
+        "about": 
+            "The Nail Lounge of La Jolla offers waxing for anybody’s needs. Waxing leaves skin soft and renewed, giving you confidence to show beautiful skin.",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    },
+    {
+        "title": "Kids Service",
+        "image": "https://thumbs.dreamstime.com/b/woman-nail-salon-receiving-manicure-beautician-beauty-treatment-concept-35878958.jpg",
+        "about": 
+            "Little Princess treatments are for our guests age ten and younger. Perfect as gifts or to accompany your own spa experience, Little Princess treatments will make her feel extra special.",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    },
+    {
+        "title": "Additional Services",
+        "image": "https://thumbs.dreamstime.com/b/woman-nail-salon-receiving-manicure-beautician-beauty-treatment-concept-35878958.jpg",
+        "about": 
+            "The Nail Lounge of La Jolla offers additional services to ensure your satisfaction. Anything from changing your nail polish color to repairing a broken nail to having a few extra minutes of massage can be done for you.",
+        "technologies": ["Price"],
+        "repo": "",
+        "site": ""
+    }
+]

@@ -1,25 +1,25 @@
 import React, { useState } from "react";
-import projects from "../../projects.json";
+import services from "../../services.json";
 import TechListItem from "../TechListItem";
 import "./style.css";
 
-function Project2() {
+function ServiceList() {
   // const open=[open, openState] = useState(false);
 
-  function checkRepoLink(project) {
+  function checkRepoLink(service) {
     console.log("inside repo function")
-    if (project.repo !== null) {
+    if (service.repo !== null) {
       return (
         <div className="row">
           <div className="col-sm text-center">
-            <a className="repoLink" href={project.repo} target="_blank">
+            <a className="repoLink" href={service.repo} target="_blank">
               <button type="button" className="btn btn-info repoBtn">
                 Code
               </button>
             </a>
           </div>
           <div className="col-sm text-center">
-            <a className="siteLink" href={project.site} target="_blank">
+            <a className="siteLink" href={service.site} target="_blank">
               <button type="button" className="btn btn-info siteBtn">
                 Website
               </button>
@@ -31,35 +31,35 @@ function Project2() {
       return (
       <div className="row">
         <div className="col-sm">
-        <a className="siteLink" href={project.site} target="_blank"><button type="button" className="btn btn-info siteBtn">Website</button></a>
+        <a className="siteLink" href={service.site} target="_blank"><button type="button" className="btn btn-info siteBtn">Website</button></a>
         </div>
       </div>
       );
     }
   };
 
-  return projects.map((project) => {
+  return services.map((service) => {
     return ( <div className="row">
-      <div className="card mb-5 projectCard">
+      <div className="card mb-5 serviceCard">
         <div className="card-body">
           <div className="row">
             <div className="col-md-3 my-auto">
               <img
-                src={project.image}
-                alt={project.title}
+                src={service.image}
+                alt={service.title}
                 width="200px"
                 className="card-img img-fluid logo"
               />
             </div>
             <div className="col-md-9">
-              <h4 className="card-title">{project.title}</h4>
+              <h4 className="card-title">{service.title}</h4>
               <div className="row card-text">
-                <p>{project.about}</p>
+                <p>{service.about}</p>
                 <ul className="technologies">
-                  <TechListItem techItems={project.technologies}></TechListItem>
+                  <TechListItem techItems={service.technologies}></TechListItem>
                 </ul>
               </div>
-              {checkRepoLink(project)}
+              {checkRepoLink(service)}
             </div>
           </div>
         </div>
@@ -70,4 +70,4 @@ function Project2() {
 }
 //need to import the reactstrap button (1 for site, 1 for repo, 1 for the toggle)
 
-export default Project2;
+export default ServiceList;

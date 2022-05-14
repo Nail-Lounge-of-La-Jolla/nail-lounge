@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 // import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Main from "./views/Main";
-import Projects from "./views/Projects";
+import Services from "./views/Services";
 import Resume from "./views/Resume";
 import About from "./views/About";
 import Contact from "./views/Contact";
@@ -14,7 +14,7 @@ function App() {
           <div className="wrapper">
             {/* <NavBar /> */}
             <Main />
-            <Projects />
+            <Services />
             <About />
             <Resume />
             <Contact />
@@ -26,7 +26,7 @@ function App() {
 export default App;
 
             // <Main />
-            // <Projects />
+            // <Services />
             // <About />
             // <Resume />
             // <Contact />
