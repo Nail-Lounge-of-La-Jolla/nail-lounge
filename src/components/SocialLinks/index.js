@@ -6,14 +6,13 @@ function SocialLinks() {
     <div className="row">
       <div className="row">
         <div className="col-sm-12 text-center fluid">
-          <h5 className="email">jos.a.hill@gmail.com</h5>
+          <h5 className="email">NAIL LOUNGE OF LA JOLLA</h5>
         </div>
       </div>
       <div className="row">
         <div className="col-sm" />
         <div className="col-sm text-center">
-          <a href="https://www.github.com/staazmeister" target="_blank"><i class="fab fa-github-square fa-3x" /></a>
-          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-3x" /></a>
+          <a href="https://www.instagram.com/naillounge_lajolla/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
         </div>
         <div className="col-sm" />
       </div>

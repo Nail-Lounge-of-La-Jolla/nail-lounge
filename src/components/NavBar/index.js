@@ -76,10 +76,13 @@ function NavBar() {
               CONTACT
             </Link>
           </li>
+          <a href="https://www.instagram.com/naillounge_lajolla/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
         </ul>
       </div>
+    
     </nav>
   );
+  
 }
 
 export default NavBar;
