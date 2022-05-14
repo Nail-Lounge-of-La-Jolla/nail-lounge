@@ -23,7 +23,7 @@ function NavBar() {
         <ul className="navbar-nav">
           <li className="nav-item navbar-text">
             <Link
-              to="projects"
+              to="services"
               className="nav-link"
               activeClass="active"
               spy={true}
