@@ -13,6 +13,7 @@ function SocialLinks() {
         <div className="col-sm" />
         <div className="col-sm text-center">
           <a href="https://www.instagram.com/naillounge_lajolla/?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+          <a href="https://www.yelp.com/biz/the-nail-lounge-of-la-jolla-la-jolla" target="_blank"><i class="fab fa-yelp fa-4x"></i></a>
         </div>
         <div className="col-sm" />
       </div>
