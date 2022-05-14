@@ -29,7 +29,7 @@ function NavBar() {
               spy={true}
               smooth={true}
             >
-              PROJECTS
+              SERVICES
             </Link>
           </li>
           <li className="nav-item navbar-text">
@@ -40,7 +40,7 @@ function NavBar() {
               spy={true}
               smooth={true}
             >
-              ABOUT
+              ABOUT US
             </Link>
           </li>
           <li className=" nav-item">
@@ -56,13 +56,13 @@ function NavBar() {
           </li>
           <li className="nav-item navbar-text">
             <Link
-              to="resume"
+              to="book"
               className="nav-link"
               activeClass="active"
               spy={true}
               smooth={true}
             >
-              RESUME
+              BOOK NOW
             </Link>
           </li>
           <li className="nav-item navbar-text">
