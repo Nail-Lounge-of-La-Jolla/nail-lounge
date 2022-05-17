@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import services from "../../services.json";
+import Service from "../Service"
 import TechListItem from "../TechListItem";
 import "./style.css";
 
@@ -11,27 +12,29 @@ function ServiceList() {
     if (service.repo !== null) {
       return (
         <div className="row">
-          <div className="col-sm text-center">
+          {/* <div className="col-sm text-center">
             <a className="repoLink" href={service.repo} target="_blank">
               <button type="button" className="btn btn-info repoBtn">
                 Code
               </button>
             </a>
-          </div>
+          </div> */}
           <div className="col-sm text-center">
             <a className="siteLink" href={service.site} target="_blank">
-              <button type="button" className="btn btn-info siteBtn">
-                Website
+              <button type="button" className="btn btn-info siteBtn w-75">
+                View Services
               </button>
             </a>
           </div>
         </div>
+
+        // <Service />
       );
     } else {
       return (
       <div className="row">
         <div className="col-sm">
-        <a className="siteLink" href={service.site} target="_blank"><button type="button" className="btn btn-info siteBtn">Website</button></a>
+        <a className="siteLink" href={service.site} target="_blank"><button type="button" className="btn btn-info siteBtn">View Services</button></a>
         </div>
       </div>
       );
