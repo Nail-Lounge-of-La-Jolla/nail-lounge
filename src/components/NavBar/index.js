@@ -1,8 +1,13 @@
 import React from "react";
 import "./style.css";
 import { Link } from "react-scroll";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function NavBar() {
+const NavBar = (props) => {
+  const clickHandler = (event) => {
+    const id = event.target.id
+    props.setPage(id)
+}
   return (
     <nav className="navbar navbar-expand-md">
       <button
@@ -28,6 +33,8 @@ function NavBar() {
               activeClass="active"
               spy={true}
               smooth={true}
+              onClick={clickHandler}
+              id="services"
             >
               SERVICES
             </Link>
@@ -39,6 +46,8 @@ function NavBar() {
               activeClass="active"
               spy={true}
               smooth={true}
+              onClick={clickHandler}
+              id="about"
             >
               ABOUT US
             </Link>
@@ -50,6 +59,8 @@ function NavBar() {
               activeClass="active"
               spy={true}
               smooth={true}
+              onClick={clickHandler}
+              id="main"
             >
               NAIL LOUNGE OF LA JOLLA
             </Link>
@@ -61,6 +72,8 @@ function NavBar() {
               activeClass="active"
               spy={true}
               smooth={true}
+              onClick={clickHandler}
+              id="book"
             >
               BOOK NOW
             </Link>
@@ -72,6 +85,8 @@ function NavBar() {
               activeClass="active"
               spy={true}
               smooth={true}
+              onClick={clickHandler}
+              id="contact"
             >
               CONTACT
             </Link>

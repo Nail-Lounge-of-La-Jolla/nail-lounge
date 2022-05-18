@@ -3,7 +3,7 @@ import ContactForm from "../../components/ContactForm";
 import SocialLinks from "../../components/SocialLinks";
 import "./style.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <div className="viewFive" id="contact">
       <div className="row contact-row">

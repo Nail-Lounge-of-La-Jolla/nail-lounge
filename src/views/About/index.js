@@ -2,7 +2,7 @@ import React from "react";
 import MeOnWater from "../../img/nail-painting-stock-photo.jpeg";
 import "./style.css";
 
-function About() {
+const About = () => {
 
     return (
         <div className="viewThree" id="about">

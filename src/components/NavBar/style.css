@@ -43,7 +43,7 @@ button.navbar-toggler:visited {
 }
 
 
-@media (max-width: 888px) {
+@media (max-width: 1206px) {
     li.nav-item.navbar-text {
         padding-left: 10px;
         padding-right: 10px;

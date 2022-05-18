@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import ServiceList from "../../components/ServiceList";
 
-function Services() {
+const Services = () => {
 
     return (
         <div className="viewTwo" id="services">

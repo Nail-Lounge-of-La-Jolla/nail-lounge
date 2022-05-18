@@ -3,11 +3,9 @@ import NavBar from "../../components/NavBar";
 import "./style.css";
 import { Link } from "react-scroll";
 
-function MainPage() {
+const MainPage = () => {
   return (
     <div className="row" id="/">
-      <NavBar />
-
       <div className="col-md">
         <div className="mobile-image"></div>
         <div className="intro-text alignCenter">

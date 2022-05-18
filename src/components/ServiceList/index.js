@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import services from "../../services.json";
 import Service from "../Service"
 import TechListItem from "../TechListItem";
