@@ -1,7 +1,7 @@
 import React from "react";
 import services from "../../services.json";
-import Service from "../Service"
-import TechListItem from "../TechListItem";
+// import Service from "../Service"
+// import TechListItem from "../TechListItem";
 import "./style.css";
 
 function ServiceList() {
@@ -59,7 +59,7 @@ function ServiceList() {
               <div className="row card-text">
                 <p>{service.about}</p>
                 <ul className="technologies">
-                  <TechListItem techItems={service.technologies}></TechListItem>
+                  {/* <TechListItem techItems={service.technologies}></TechListItem> */}
                 </ul>
               </div>
               {checkRepoLink(service)}
