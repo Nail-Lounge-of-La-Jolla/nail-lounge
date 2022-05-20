@@ -1,8 +1,10 @@
 import React from "react";
 import services from "../../services.json";
-import Service from "../Service"
 import TechListItem from "../TechListItem";
 import "./style.css";
+import Accordion from "react-bootstrap/Accordion"
+
+
 
 function ServiceList() {
   // const open=[open, openState] = useState(false);
@@ -20,11 +22,22 @@ function ServiceList() {
             </a>
           </div> */}
           <div className="col-sm text-center">
-            <a className="siteLink" href={service.site} target="_blank">
-              <button type="button" className="btn btn-info siteBtn w-75">
-                View Services
-              </button>
-            </a>
+          <Accordion>
+  <Accordion.Item eventKey="0">
+    <Accordion.Header>View Services</Accordion.Header>
+    <Accordion.Body>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </Accordion.Body>
+  </Accordion.Item>
+
+</Accordion>
+            
           </div>
         </div>
 

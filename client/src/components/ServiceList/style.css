@@ -30,6 +30,9 @@
   margin: auto;
   width: 90%;
 }
+#Accordion{
+ width: 100%;
+}
 
 .repoBtn:hover,
 .siteBtn:hover {

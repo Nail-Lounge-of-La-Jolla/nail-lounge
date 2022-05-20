@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import ServiceList from "../../components/ServiceList";
+import ServiceList from "../../components/ServiceList"
+
 
 const Services = () => {
 
@@ -12,6 +13,7 @@ const Services = () => {
                 </div>
             </div>
             <div className="row">
+            
                 <ServiceList />
             </div>
         </div>
