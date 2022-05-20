@@ -72,7 +72,7 @@ function ServiceList() {
               <div className="row card-text">
                 <p>{service.about}</p>
                 <ul className="technologies">
-                  <TechListItem techItems={service.technologies}></TechListItem>
+                  {/* <TechListItem techItems={service.technologies}></TechListItem> */}
                 </ul>
               </div>
               {checkRepoLink(service)}
