@@ -1,6 +1,6 @@
 import React from "react";
 import services from "../../services.json";
-import TechListItem from "../TechListItem";
+// import TechListItem from "../TechListItem";
 import "./style.css";
 import Accordion from "react-bootstrap/Accordion"
 
