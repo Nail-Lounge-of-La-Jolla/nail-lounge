@@ -9,7 +9,7 @@ import Book from "./views/Book";
 import About from "./views/About";
 import Contact from "./views/Contact";
 import CreateAccount from "./views/CreateAccount";
-import LogIn from "./views/LogIn";
+import LogIn from "./views/Login";
 
 import {
   ApolloClient,
