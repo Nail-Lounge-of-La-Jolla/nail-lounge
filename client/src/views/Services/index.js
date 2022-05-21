@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
-import ServiceList from "../../components/ServiceList"
-import { useQuery } from '@apollo/client'
-import { QUERY_ALL_SERVICES } from '../../utils/queries'
+import ServiceList from "../../components/ServiceList";
+import { useQuery } from '@apollo/client';
+import { QUERY_ALL_SERVICES } from '../../utils/queries';
 
 const Services = () => {
 

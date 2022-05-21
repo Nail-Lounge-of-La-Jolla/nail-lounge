@@ -9,7 +9,9 @@ import Book from "./views/Book";
 import About from "./views/About";
 import Contact from "./views/Contact";
 import CreateAccount from "./views/CreateAccount";
-import LogIn from "./views/Login";
+//import Login from "./views/Login/index.js";
+
+import Login from './views/Login'
 
 import {
   ApolloClient,
@@ -57,7 +59,7 @@ function App() {
       case 'createAccount':
       return <CreateAccount />
       case 'logIn':
-      return <LogIn />
+      return <Login />
     }
   }
   return (

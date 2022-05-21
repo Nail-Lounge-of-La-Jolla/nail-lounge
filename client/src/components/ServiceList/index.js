@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 import Accordion from "react-bootstrap/Accordion";
-import  useAccordionButton  from 'react-bootstrap/AccordionButton';
-import AccordionContext from "react-bootstrap/Card";
+// import  useAccordionButton  from 'react-bootstrap/AccordionButton';
+// import AccordionContext from "react-bootstrap/Card";
 
 
 
@@ -35,7 +35,7 @@ function ServiceList({ services }) {
   let current_category = {}
   let categories = services.filter( (service) => {
     console.log(service, current_category)
-    if(service.category.name == current_category[service.category.name]) {
+    if(service.category.name === current_category[service.category.name]) {
       return false 
     } else {
       current_category[service.category.name] = service.category.name
@@ -49,7 +49,7 @@ function ServiceList({ services }) {
     let newCategory = { name : category.category.name, image: category.category.image }
     newCategory.services = []
     services.map( (service) => {
-      if(category.category.name == service.category.name) {
+      if(category.category.name === service.category.name) {
         newCategory.services.push(service)
       }
     })
