@@ -8,6 +8,8 @@ import Services from "./views/Services";
 import Book from "./views/Book";
 import About from "./views/About";
 import Contact from "./views/Contact";
+import CreateAccount from "./views/CreateAccount";
+import LogIn from "./views/LogIn";
 
 function App() {
   const [page, setPage] = useState('main')
@@ -23,6 +25,10 @@ function App() {
       return <Book />
       case 'contact':
       return <Contact />
+      case 'createAccount':
+      return <CreateAccount />
+      case 'logIn':
+      return <LogIn />
     }
   }
   return (

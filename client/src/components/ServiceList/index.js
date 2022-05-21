@@ -1,9 +1,9 @@
 import React from "react";
 import services from "../../services.json";
 import "./style.css";
-import Accordion from "react-bootstrap/Accordion"
+import Accordion from "react-bootstrap/Accordion";
 import  useAccordionButton  from 'react-bootstrap/AccordionButton';
-import AccordionContext from "react-bootstrap/Card"
+import AccordionContext from "react-bootstrap/Card";
 
 
 
@@ -58,7 +58,7 @@ function ServiceList() {
               <Accordion.Item>
                 <Accordion.Header>View Services</Accordion.Header>
                 <Accordion.Body>
-                
+                Services coming sooon
                 </Accordion.Body>
               </Accordion.Item>
               </Accordion>
