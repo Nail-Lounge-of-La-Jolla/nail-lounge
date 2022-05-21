@@ -12,7 +12,7 @@ const MainPage = () => {
           <br></br>
           <h2 className="intro">Awesome Nail Salon!</h2>
           <br></br>
-          <h3>Come get your nails did!.</h3>
+          <h3>Come get your nails done!</h3>
           <br></br>
           <br></br>
           <Link to="about"

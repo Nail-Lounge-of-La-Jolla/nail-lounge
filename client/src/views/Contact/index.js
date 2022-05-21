@@ -3,6 +3,7 @@ import SocialLinks from "../../components/SocialLinks";
 import "./style.css";
 
 const Contact = () => {
+
   return (
     <div className="viewFive" id="contact">
       <div className="row contact-row">
@@ -28,16 +29,14 @@ const Contact = () => {
 
 /*
 document.body.innerHTML='<div id="map-canvas" style="width:500px; height:500px;"></div>';
-*/ 
 
-/*
 function initialize() {
   var mapOptions = {
     zoom: 10,
     center: new google.maps.LatLng(32.84103017095018, -117.27256999689892)
   };
 
-  var map= new google.maps.Map(document.getElementById('map-canvas'),
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
   mapOptions);
 };
 
@@ -49,6 +48,7 @@ function loadScript() {
   document.body.appendChild(script);
 }
 
-window.onload = loadScript
+window.onload = setTimeout(loadScript,500);
 */
+
 export default Contact;

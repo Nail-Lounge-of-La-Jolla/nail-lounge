@@ -15,16 +15,19 @@ export const QUERY_SERVICES = gql`
 `;
 
 export const QUERY_ALL_SERVICES = gql`
-query getServices($category: ID) {
-    services(category: $category)  {
+query {
+  services {
+    _id
+    name
+    category {
       _id
+      description
       name
-      price
-      category {
-        name
-      }
+      image
     }
+    price
   }
+}
 `;
 
 export const QUERY_CATEGORIES = gql`
