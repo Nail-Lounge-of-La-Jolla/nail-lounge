@@ -1,0 +1,31 @@
+#Qr{
+    width: 200px;
+    align-content: center;
+    align-items: center;
+}
+
+.modal-body{
+    align-self: center;
+
+}
+
+.btn-close{
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 5px;
+    position: relative;
+}
+.btn-close::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "\274c";
+    font-size: 10px;
+    text-decoration: black;
+    line-height: 20px;
+    text-align: center;
+    background-color: black;
+}

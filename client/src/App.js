@@ -9,7 +9,7 @@ import Book from "./views/Book";
 import About from "./views/About";
 import Contact from "./views/Contact";
 import CreateAccount from "./views/CreateAccount";
-//import Login from "./views/Login/index.js";
+import Profile from "./views/Profile";
 
 import Login from './views/Login'
 
@@ -60,6 +60,8 @@ function App() {
       return <CreateAccount />
       case 'logIn':
       return <Login />
+      case 'profile':
+      return <Profile />
     }
   }
   return (
