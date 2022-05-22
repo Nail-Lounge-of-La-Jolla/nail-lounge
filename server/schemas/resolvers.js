@@ -58,6 +58,17 @@ const resolvers = {
       return { token, user };
     }
   }
+  remove: async (parent, { user }) => {
+    return User.findOneAndDelete({ _id: user});
+  },
+  removeComment: async (parent, { addUser }) => {
+    return User.findOneAndUpdate(
+      { _id: addUser },
+      { $pull: { User: { _id: addUser } } },
+      { new: true }
+     );
+    },
+  },
 };
 
 module.exports = resolvers;
