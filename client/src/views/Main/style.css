@@ -27,6 +27,10 @@ html {
     margin-top: -100px;
 }
 
+.welcome-p{
+    padding-left: 75px;
+    padding-right: 75px;
+}
 
 .mobile-title {
     font-family: 'Bebas Neue', sans-serif;
@@ -45,6 +49,8 @@ html {
     font-family: 'Montserrat', sans-serif;
     width: 80%;
     margin: auto;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
 }
 
 .readMore {

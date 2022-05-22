@@ -68,8 +68,8 @@ function ServiceList({ services }) {
                 className="card-img img-fluid logo"
               />
             </div>
-            <div className="col-md-9">
-              <h4 className="card-title">{category.name}</h4>
+            <div className="col-md-9 card-cont">
+              <h4 className="card-title">{category.name.toUpperCase()}</h4>
               <div className="row card-text">
                 <p>{category.description}</p>
               </div>

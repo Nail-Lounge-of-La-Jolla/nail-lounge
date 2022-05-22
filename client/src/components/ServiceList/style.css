@@ -3,6 +3,7 @@
   margin: auto;
   background-color: #f5f5f5;
   border: none;
+  box-shadow: 3px 3px 3px 3px #afafaf;
 }
 
 .card-title,
@@ -10,8 +11,18 @@
   margin: 12px;
 }
 
+.card-title{
+  font-weight:bolder;
+  /* color: #a87542; */
+  color: #aa9076;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .card-text {
   margin-top: 20px;
+  font-size: large;
+  color: #575757;
 }
 
 .repoLink,
@@ -31,25 +42,28 @@
   width: 90%;
 }
 button{
- width: 50%;
+ width: 30%;
  border: none;
+ border-radius: 5px;
  background-color: #338aad;
  color: #f5f5f5;
  border:  #338aad solid 1px;
+ font-size: 25px;
+ padding: 5px;
 
 }
 button:hover{
   color: #f5f5f5;
-  background-color: #d7a573;
-  border: #d7a573 solid 1px;
+  background-color: #bba289;
+  border: #bba289 solid 1px;
 
 }
 
 .repoBtn:hover,
 .siteBtn:hover {
   color: #f5f5f5;
-  background-color: #d7a573;
-  border: #d7a573 solid 1px;
+  background-color: #bba289;
+  border: #bba289 solid 1px;
 }
 
 a,
@@ -59,7 +73,7 @@ a:hover {
 .acc-cont{
   display: flex;
   justify-content: space-between;
-  border-bottom: dashed 1px rgb(0, 0, 0);
+  border-bottom: dashed 1px rgb(128, 128, 128);
   margin-top: 15px;
 }
 
@@ -67,7 +81,7 @@ a:hover {
 display: inline;
 font-size: large;
 font-weight: bold;
-color: #a87542;
+color: #9e866e;
 }
 
 

@@ -1,12 +1,18 @@
 .about-left {
-    background-color: #338aad;
+    background-color: #cae1e7;
     text-align: center;
+    height: 700px;
+}
+
+.about-right{
+    position: relative;
 }
 
 .about-photo {
     width: 65vh;
     margin-top: 20vh;
     margin-bottom: 20vh;
+    border-radius: 5px;
 }
 
 #aboutTitle {
@@ -15,7 +21,12 @@
 
 .bioText {
     margin-top: 20px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .bio {
@@ -23,11 +34,14 @@
     padding: 8px;
     width: 80%;
     margin: auto;
+    font-size: large;
 }
 
 .skillHeader {
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 12px;
+    color: #aa9076;
+    font-style: italic;
 }
 
 .skillList {
@@ -37,4 +51,8 @@
 
 .skill {
     list-style-type: none;
+}
+.sand{
+    height: 157px;
+    width: 100%;
 }
