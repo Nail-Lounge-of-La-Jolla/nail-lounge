@@ -4,9 +4,6 @@ import Accordion from "react-bootstrap/Accordion";
 // import  useAccordionButton  from 'react-bootstrap/AccordionButton';
 // import AccordionContext from "react-bootstrap/Card";
 
-
-
-
 function ServiceList({ services }) {
   // const open=[open, openState] = useState(false);
 
