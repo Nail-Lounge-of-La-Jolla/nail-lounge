@@ -15,7 +15,7 @@ const MainPage = () => {
           <p className="welcome-p">The Nail Lounge of La Jolla is a one stop for all of your nail needs. View our wide range of services and schedule an appointment with one our top specialists!</p>
           <br></br>
           <br></br>
-          <Link to="#about"
+          <Link to="#about-us"
            activeClass="active"
            spy={true}
            smooth={true}

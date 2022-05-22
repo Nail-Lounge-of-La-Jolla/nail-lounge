@@ -6,10 +6,10 @@ const Book = () => {
 
     return (
       <div className="viewFour" id="book">
-        <div className="row">
-          <div className="col-md">
+        <div className="row book-cont">
+          <div className="book-r">
           {/* <h3 className="viewTitle" id="bookTitle">BOOK NOW</h3> */}
-          <iframe height="500%" width="100%" src="https://booking.mangomint.com/demonails"></iframe>
+          <iframe height="850px" width="500px" src="https://booking.mangomint.com/demonails"></iframe>
           </div>
         </div>
       </div>

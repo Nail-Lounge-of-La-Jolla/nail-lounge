@@ -1,5 +1,5 @@
 // import React from "react";
-// import "./style.css";
+import "./style.css";
 // import Form from 'react-bootstrap/Form'
 // import Row from 'react-bootstrap/Row'
 // import Col from 'react-bootstrap/Col'
@@ -92,7 +92,7 @@ function Signup(props) {
   };
 
   return (
-    <div className="container my-1">
+    <div className="container-li my-1">
       {/* <Link to="/login">← Go to Login</Link> */}
 
       <h2>Signup</h2>
