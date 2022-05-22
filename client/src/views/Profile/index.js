@@ -7,40 +7,38 @@ import { useState } from 'react';
 import Qrcode from "../../img/Qrcode.jpeg";
 
 
-
 const Profile = () => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+ 
     return (
-        <div>
+
+          <div>
             <Card className="mx-5">
                 <Card.Header>Account</Card.Header>
                 <Card.Body>
-                    <Card.Title>Hi, (user's Name)</Card.Title>
+                    <Card.Title>Hi! , User </Card.Title>
                     <Card.Text>
-                        Text
+                        Welcome to your account.
                     </Card.Text>
                     <Button variant="primary" onClick={handleShow}>Coupon</Button>
                 </Card.Body>
             </Card>
+            
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>First Time Client</Modal.Title>
+                    
                 </Modal.Header>
                 <Modal.Body>
-                    
+                 <Card.Img variant="center" id="Qr" src={Qrcode} />
                 </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={handleClose}>
-                        Close
-                    </Button>
-                </Modal.Footer>
             </Modal>
-        </div>
+        </div>)
 
-  );
+    
 }
 
 export default Profile;
