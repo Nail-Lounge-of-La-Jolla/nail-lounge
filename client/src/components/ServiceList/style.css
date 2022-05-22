@@ -56,6 +56,21 @@ a,
 a:hover {
   text-decoration: none;
 }
+.acc-cont{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: dashed 1px rgb(0, 0, 0);
+  margin-top: 15px;
+}
+
+.acc-row{
+display: inline;
+font-size: large;
+font-weight: bold;
+color: #a87542;
+}
+
+
 
 @media (max-width: 540px) {
   .card {

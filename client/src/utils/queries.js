@@ -9,6 +9,7 @@ export const QUERY_SERVICES = gql`
       image
       category {
         _id
+        description
       }
     }
   }
@@ -21,9 +22,9 @@ query {
     name
     category {
       _id
-      description
       name
       image
+      description
     }
     price
   }
@@ -35,6 +36,7 @@ export const QUERY_CATEGORIES = gql`
     categories {
       _id
       name
+      description
     }
   }
 `;

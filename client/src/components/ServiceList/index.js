@@ -43,7 +43,7 @@ function ServiceList({ services }) {
   console.log("the categories are", categories)
 
   let newCategories = categories.map( (category) => {
-    let newCategory = { name : category.category.name, image: category.category.image }
+    let newCategory = { name : category.category.name, image: category.category.image, description: category.category.description }
     newCategory.services = []
     services.map( (service) => {
       if(category.category.name === service.category.name) {
@@ -79,11 +79,14 @@ function ServiceList({ services }) {
               <Accordion defaultActiveKey="0">
               <Accordion.Item>
                 <Accordion.Header>View Services</Accordion.Header>
-                <Accordion.Body>
+                <Accordion.Body >
                   {
                     category.services.map( (service) => {
                   
-                      return ( <div> { service.name } </div> )
+                      return ( <div className="acc-cont"> 
+                        <p className="acc-row">{ service.name } </p>
+                        <p className="acc-row">$ { service.price  }</p> 
+                      </div> )
                     })
                   }
              
