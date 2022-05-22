@@ -1,10 +1,12 @@
 .navbar {
     background: transparent;
-    z-index: 50;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    z-index: 10;
+ 
+   
+    
+    
 }
+
 
 #main{
     margin-right: 0%;
@@ -30,6 +32,14 @@
     letter-spacing: 2px;
     color:#203242;
     font-family: 'Bebas Neue', sans-serif;
+}
+
+a{
+    text-align: left;
+}
+
+#basic-nav-dropdown{
+   text-align: left;
 }
 
 .fa-bars {

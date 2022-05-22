@@ -13,7 +13,6 @@ const NavBar = (props) => {
   }
   return (
     <Navbar bg="light" expand="xl">
-    <Container>
       <Navbar.Brand onClick={clickHandler} id="main" href="#home">NAIL LOUNGE OF LA JOLLA</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -26,11 +25,11 @@ const NavBar = (props) => {
             <NavDropdown.Item onClick={clickHandler} id="logIn" href="#log-in">LOG IN</NavDropdown.Item>
             <NavDropdown.Item onClick={clickHandler} id="createAccount" href="#create-account">CREATE ACCOUNT</NavDropdown.Item>
             <NavDropdown.Divider />
+            <NavDropdown.Item onClick={clickHandler} id="profile" href="#profile">PROFILE</NavDropdown.Item>
             <NavDropdown.Item href="#log-out">LOG OUT</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
-    </Container>
   </Navbar>
   );
   
