@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 23 Final Project "NAIL LOUNGE OF LA JOLLA": MERN Stack Single-Page Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For our final project, our client was in desperate need of new webpage. The old site was outdated and not reflective of the stellar services they provide to all who come in for a little rest and relaxation.
 
-## Available Scripts
+Our mission was to design a full stack application that provided a welcoming and user-friendly site that enhances the over experience of booking the users next nail or waxing service with ease.
 
-In the project directory, you can run:
 
-### `npm start`
+## User Story (provided in the Final Project instructions from week 23)
+```
+Projects have played a key role in your journey to becoming a full-stack web developer. As you apply for development jobs, your portfolio is absolutely vital to opening doors to opportunities. Your portfolio showcases high-quality deployed examples of your work, and you can use your finished projects for that very purpose.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a fantastic opportunity to show employers your collaborative skills and coding abilities, especially in the context of a scalable, user-focused MERN app. Remember that employers want to see what you can do, but they also want to see how you work with other developers. The more examples of deployed collaborative work you have in your portfolio, the more likely you are to get an interview and a job.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `npm test`
+## Acceptance Criteria (provided in the Final Project instructions from week 23)
+```
+Your group will use everything you’ve learned throughout this course to create a MERN stack single-page application that works with real-world data to solve a real-world challenge, with a focus on data and user demand. This project will provide you with the best opportunity to demonstrate your problem-solving skills, which employers will want to see during interviews. Once again, the user story and acceptance criteria will depend on the project that you create, but your project must fulfill the following requirements:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Use React for the front end.
 
-### `npm run build`
+* Use GraphQL with a Node.js and Express.js server.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Use MongoDB and the Mongoose ODM for the database.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Use queries and mutations for retrieving, adding, updating, and deleting data.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Be deployed using Heroku (with data).
 
-### `npm run eject`
+* Have a polished UI.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Be responsive.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Be interactive (i.e., accept and respond to user input).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Include authentication (JWT).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Protect sensitive API key information on the server.
 
-## Learn More
+* Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, high-quality comments, etc.).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+## Why this project is important
+This final project allows us to show off all the skill we learn thus far while in Coding Bootcamp and also allows us to demonstrate to potential future employers what we are capable of.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Actions taken for this project
+- Created web application using React, GraphQl, Node.js, Express.js, MongoDB, Mongoose ODM, queries/mutations for retrieving, adding, updating, and deleting data, HTML, CSS (bootstrap), and Heroku deployment 
+- Used git commands to add, commit, and push all changes on to GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## View of how deployed application looks
+![Screen Shot 2022-05-22 at 2 15 34 PM](https://user-images.githubusercontent.com/94095220/169718144-f8649bb2-abb4-483d-8530-4574410fed8b.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Links to Deployed Application
+Live URL: https://nailloungeoflajolla.herokuapp.com/
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+URL for GitHub repository:https://github.com/Nail-Lounge-of-La-Jolla
