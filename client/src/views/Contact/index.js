@@ -6,13 +6,14 @@ const Contact = () => {
   return (
     <div className="viewFive" id="contact">
       <div className="row contact-row">
+
         <div className="formDiv" id="contact">
           <h3 className="viewTitle" id="contactTitle">
-            <span class="contact"> HOW TO REACH US </span>
+            <span className="contact"> HOW TO REACH US </span>
             <p> Phone: (858) 456-7171 </p>
             <p> Address: 7514 Girard Ave #30, La Jolla, CA 92037 </p>
 
-            <span class="contact"> Hours of Operation: </span>
+            <span className="contact"> Hours of Operation: </span>
             <p> Monday-Saturday: 9 AM - 7 PM </p>
             <p> Sunday: 10 AM - 6 PM </p>
           </h3>
@@ -20,6 +21,7 @@ const Contact = () => {
           {/* <ContactForm /> */}
           <SocialLinks />
         </div>
+
       </div>
     </div>
   );

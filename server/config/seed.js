@@ -6,11 +6,11 @@ db.once('open', async () => {
 
   const categories = await Category.insertMany([
     { name: 'Manicure',
-      image: "https://media.gettyimages.com/photos/women-getting-pedicures-picture-id181853082?s=612x612",
+      image: "https://blog.classpass.com/wp-content/uploads/2021/03/Spa-Manicure-ClassPass-scaled.jpg",
       description: "The Nail Lounge of La Jolla offers a variety of manicures to suit your needs. Whether you seek a simple shine or a complete pampering, there is a perfect manicure for you."
     },
     { name: 'Pedicure',
-      image: "https://media.istockphoto.com/photos/women-getting-pedicures-picture-id170175808?s=612x612",
+      image: "https://facesspa.com/wp-content/uploads/2020/05/AdobeStock_56635333.jpeg",
       description: "The Nail Lounge of La Jolla offers a variety of pedicures to suit your needs. Whether you seek a simple shine or a complete pampering, there is a perfect pedicure for you." 
     },
     { name: 'Waxing',

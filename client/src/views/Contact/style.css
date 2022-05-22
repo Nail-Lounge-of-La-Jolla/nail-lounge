@@ -1,9 +1,25 @@
 .viewFive {
     background-image: url("../../img/water.jpg");
     width: 100%;
+    height: 857px;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     margin-top: -10vh;
+    margin-bottom: 0px;
+}
+
+#contactTitle {
+    padding-bottom: 2vh;
+    /* color: #a87542; */
+    color: #aa9076;
+}
+
+.formDiv p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    color:rgb(58, 58, 58);
+    margin-top: 20px;
 }
 
 .formDiv {
@@ -12,17 +28,15 @@
     margin: auto;
     padding-bottom: 20px;
     margin-bottom: 10vh;
-    margin-top: 5vh;
+    margin-top: 15vh;
 }
 
-#contactTitle {
-    padding-bottom: 2vh;
+.contact-mg{
+    margin-bottom: 10px;
 }
-
 .contact-row {
     margin-top: 10vh;
 }
-
 @media only screen and (max-width: 540px) {
     .formDiv {
         width: 80vw;
