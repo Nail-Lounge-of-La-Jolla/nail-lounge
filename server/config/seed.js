@@ -10,7 +10,7 @@ db.once('open', async () => {
       description: "The Nail Lounge of La Jolla offers a variety of manicures to suit your needs. Whether you seek a simple shine or a complete pampering, there is a perfect manicure for you."
     },
     { name: 'Pedicure',
-      image: "https://media.istockphoto.com/photos/women-getting-pedicures-picture-id170175808",
+      image: "https://media.istockphoto.com/photos/women-getting-pedicures-picture-id170175808?s=612x612",
       description: "The Nail Lounge of La Jolla offers a variety of pedicures to suit your needs. Whether you seek a simple shine or a complete pampering, there is a perfect pedicure for you." 
     },
     { name: 'Waxing',
@@ -18,11 +18,11 @@ db.once('open', async () => {
       description: "The Nail Lounge of La Jolla offers waxing for all over your body in the least painless way as possible (there may be slight pain)."
     },
     { name: 'Kids Service',
-      image: "https://i.ytimg.com/vi/Pppl8hprirI/maxresdefault.jpg",
+      image: "https://media.istockphoto.com/photos/mother-and-daughter-doing-manicure-picture-id541291082?k=20&m=541291082&s=612x612&w=0&h=6rEogg5w0bU1bCw6Iuu4bQOtnqPSxXtDuz7Z8qwCJRc=",
       description: "The Nail Lounge of La Jolla offers a variety of manicures and pedicures for your children!" 
     },
     { name: 'Additional Services',
-      image: "https://media.istockphoto.com/photos/collection-of-nail-design-picture-id624626098?k=20&m=624626098&s=612x612&w=0&h=Kukzn_lcPcovN4hs3ZHIWkorR05i4EYYvvNWP-_Isxo=",
+      image: "https://media.istockphoto.com/photos/blue-pink-manicure-picture-id528708841?k=20&m=528708841&s=612x612&w=0&h=JFRszVydesjJRHTLVMTduIyCq1h9Ey-hGbjf5lMgX2c=",
       description: "The Nail Lounge of La Jolla offers a variety of additional services to make your manicures and pedicures look even better!"
     },
   ]);
