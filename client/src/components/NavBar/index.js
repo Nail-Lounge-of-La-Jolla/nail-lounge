@@ -17,10 +17,10 @@ const NavBar = (props) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link onClick={clickHandler} id="services" href="#home">SERVICES</Nav.Link>
-          <Nav.Link onClick={clickHandler} id="about" href="#about-us">ABOUT US</Nav.Link>
-          <Nav.Link onClick={clickHandler} id="book" href="#book-now"> BOOK NOW</Nav.Link>
-          <Nav.Link onClick={clickHandler} id="contact" href="#contact-us"> CONTACT US</Nav.Link>
+          <Nav.Link onClick={clickHandler} class="link" id="services" href="#home">SERVICES</Nav.Link>
+          <Nav.Link onClick={clickHandler} class="link"  id="about" href="#about-us">ABOUT US</Nav.Link>
+          <Nav.Link onClick={clickHandler} class="link"  id="book" href="#book-now"> BOOK NOW</Nav.Link>
+          <Nav.Link onClick={clickHandler} class="link" id="contact" href="#contact-us"> CONTACT US</Nav.Link>
           <NavDropdown title="YOUR ACCOUNT" id="basic-nav-dropdown">
             <NavDropdown.Item onClick={clickHandler} id="logIn" href="#log-in">LOG IN</NavDropdown.Item>
             <NavDropdown.Item onClick={clickHandler} id="createAccount" href="#create-account">CREATE ACCOUNT</NavDropdown.Item>

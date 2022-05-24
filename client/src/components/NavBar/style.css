@@ -2,11 +2,11 @@
     background: transparent;
     z-index: 10;
  
-   
-    
-    
 }
-
+.link{
+    color: #203242;
+    text-align: left;
+}
 
 #main{
     margin-right: 0%;
