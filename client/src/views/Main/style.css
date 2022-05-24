@@ -59,6 +59,9 @@ html {
     border:  darkslategrey solid 1px;
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
+    /* width: 25%; */
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 .readMore:hover {

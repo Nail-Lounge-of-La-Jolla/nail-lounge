@@ -47,7 +47,7 @@ function App() {
   const Render = () => {
     switch(page){
       case 'main':
-      return <Main />
+      return <Main page={page} setPage={setPage} />
       case 'services':
       return <Services />
       case 'about':
