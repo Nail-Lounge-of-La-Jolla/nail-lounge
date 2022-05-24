@@ -35,51 +35,61 @@ db.once('open', async () => {
     {
       name: 'Classic Manicure',
       price: 18.99,
+      description: "Hands soak, nails and cuticle shaping, massage, finished with choice of polish.",
       category: categories[0]._id
     },
     {
       name: 'Deluxe Manicure',
       price: 22.99,
+      description: "Classic manicure, exfoliate with organic sugar scrub, hot towels, hydrate with Codi special lotion, extra massage.",
       category: categories[0]._id
     },
     {
       name: 'The Lounge Manicure',
       price: 28.99,
+      description: "Classic manicure, exfoliate with organic sugar scrub, hot towels, paraffin treatment, hydrate with Codi special.",
       category: categories[0]._id
     },
     {
       name: 'Gel Manicure',
       price: 38.99,
+      description: "Classic mani, finished with GEL Color. Last up to 2 weeks with zero chips, dents, smudges.",
       category: categories[0]._id
     },
     {
       name: 'Classic Pedicure',
       price: 29.99,
+      description: "Foot bath, nails and cuticle shaping, light scrub, hot towels, massage with warm lotion and polish.",
       category: categories[1]._id
     },
     {
       name: 'Deluxe Spa Pedicure',
       price: 37.99,
+      description: "Foot bath, nails and cuticle shaping, massage with warm lotion, organic sugar scrub, hydrating mask treatment, hot towel, finished with choice of polish.",
       category: categories[1]._id
     },
     {
       name: 'The Lounge Spa Pedicure',
       price: 48.99,
+      description: "Indulge in Codi 4 steps pedicure. Foot bath with detox sea salt soak, nails and cuticle shaping, callus treatment, sugar scrub, mud mask, paraffin, hot towel, extra massage with Codi special lotion.",
       category: categories[1]._id
     },
     {
       name: 'Gel Pedicure',
       price: 47.99,
+      description: "Foot bath, nails and cuticle shaping, lightly scrub, massage with special Codi lotion, finished with gel polish (last up to 4 weeks) with zero chips, dents, or smudge. Perfect for those on the go.",
       category: categories[1]._id
     },
     {
       name: 'On The Rock Pedicure',
       price: 59.99,
+      description: "This pedicure will help you ease your muscle tension. Foot bath, nails and cuticle shaping, organic sugar scrub, massage with lotion and extra massage with hot stone, finishes with choice of polish.",
       category: categories[1]._id
     },
     {
       name: 'The "Volcano" Pedicure',
       price: 70.99,
+      description: "The Volcano Spa Pedicure is a luxurious organic 5 step pedicure kit, formulated to provide clients a premium pedicure experience. Foot bath with volcano crystal and activators, exfoliating sugar scrub, hot towel, collagen cream mask, paraffin, collagen cream lotion and a 20 minutes massage.",
       category: categories[1]._id
     },
     {
