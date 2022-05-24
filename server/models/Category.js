@@ -13,7 +13,7 @@ const categorySchema = new Schema({
   },
   description: {
     type: String
-  }
+  },
 });
 
 const Category = mongoose.model('Category', categorySchema);

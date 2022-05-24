@@ -13,6 +13,9 @@ const serviceSchema = new Schema({
     required: true,
     min: 0.99
   },
+  description: {
+    type: String,
+  },
   category: {
     type: Schema.Types.ObjectId,
     ref: 'Category',
