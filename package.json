@@ -1,4 +1,8 @@
 {
+  "engines" : { 
+    "npm" : "8.1.2",
+    "node" : "16.13.2"
+  },
   "name": "nail-lounge",
   "version": "1.0.0",
   "description": "",
