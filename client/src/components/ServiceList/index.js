@@ -84,8 +84,8 @@ function ServiceList({ services }) {
                     category.services.map( (service) => {
                   
                       return ( <div className="acc-cont"> 
-                        <p className="acc-row">{ service.name } </p>
-                        <p className="acc-row">$ { service.price  }</p> 
+                        <p className="acc-row">{ service.name }</p>
+                        <p className="acc-row">${ service.price }</p> 
                       </div> )
                     })
                   }
