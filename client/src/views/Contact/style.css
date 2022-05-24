@@ -1,7 +1,11 @@
+html{
+    height: 100%;
+}
+
 .viewFive {
     background-image: url("../../img/water.jpg");
     width: 100%;
-    height: 857px;
+    height: 873px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

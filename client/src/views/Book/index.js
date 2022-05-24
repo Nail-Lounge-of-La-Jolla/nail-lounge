@@ -9,7 +9,7 @@ const Book = () => {
         <div className="row book-cont">
           <div className="book-r">
           {/* <h3 className="viewTitle" id="bookTitle">BOOK NOW</h3> */}
-          <iframe height="850px" width="500px" src="https://booking.mangomint.com/demonails"></iframe>
+          <iframe height="866px" width="500px" src="https://booking.mangomint.com/demonails"></iframe>
           </div>
         </div>
       </div>
