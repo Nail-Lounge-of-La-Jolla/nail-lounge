@@ -4,6 +4,10 @@ html {
 
 }
 
+.card-title {
+    text-align: left;
+}
+
 .viewTwo {
     width: 100%;
     background-color: #cae1e7;
@@ -36,4 +40,8 @@ html {
 
 .serviceRow {
     margin-bottom: 15vh;
+}
+
+h4{
+    text-align: center;
 }
