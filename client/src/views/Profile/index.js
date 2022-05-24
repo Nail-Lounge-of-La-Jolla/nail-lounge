@@ -34,6 +34,8 @@ const Profile = () => {
                 </Modal.Header>
                 <Modal.Body>
                  <Card.Img variant="center" id="Qr" src={Qrcode} />
+                 <br></br>
+                 <h4>Scan Me</h4>
                 </Modal.Body>
             </Modal>
         </div>)
