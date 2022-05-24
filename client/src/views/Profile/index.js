@@ -38,7 +38,7 @@ const Profile = () => {
                  <h4>Scan Me</h4>
                  <h4>OR</h4>
                  <br></br>
-                 <h3>CLICK HERE</h3>
+                 <h3 src="qrco.de/bd2rwM">CLICK HERE</h3>
                 </Modal.Body>
             </Modal>
         </div>)
